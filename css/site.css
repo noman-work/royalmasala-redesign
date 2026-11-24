@@ -411,3 +411,17 @@ html:not(.js) .panel{margin-bottom:var(--sp-5)}
 .section--alt .cat-card--text .tile{background:var(--cream)}
 @media (hover:hover){.cat-card--text:hover .tile{border-color:var(--gold)}}
 .cat-card--text .tile,.section--alt .cat-card--text .tile{background:var(--white)}
+
+/* Full-screen mobile menu */
+.scrim{display:none}
+.sheet{inset:0;top:0;height:100dvh;max-height:none;z-index:150;padding-top:0;box-shadow:none;display:flex;flex-direction:column}
+.sheet>.container{flex:1;display:flex;flex-direction:column;width:100%}
+.sheet-bar{display:flex;align-items:center;justify-content:space-between;height:var(--header-h);flex:none}
+.sheet-bar .logo{height:var(--logo-h);margin-right:auto}
+.sheet-close span:nth-child(1){transform:translateY(4px) rotate(45deg)}
+.sheet-close span:nth-child(2){transform:translateY(-4px) rotate(-45deg)}
+.sheet nav a{min-height:64px;font-size:2rem}
+.sheet-actions{margin-top:auto;padding-top:var(--sp-6)}
+html:not(.js) .sheet-bar{display:none}
+html:not(.js) .sheet{display:block;height:auto}
+html.sheet-open{overflow:hidden}
