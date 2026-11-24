@@ -425,3 +425,15 @@ html:not(.js) .panel{margin-bottom:var(--sp-5)}
 html:not(.js) .sheet-bar{display:none}
 html:not(.js) .sheet{display:block;height:auto}
 html.sheet-open{overflow:hidden}
+
+/* Oiva report */
+.oiva{background:var(--white);border-radius:var(--r-card);padding:var(--sp-6);max-width:600px;margin-top:var(--sp-5)}
+.oiva-main{display:flex;align-items:center;flex-wrap:wrap;gap:var(--sp-5);margin-bottom:var(--sp-3)}
+.oiva-logo{font:italic 400 2.375rem/1.1 Georgia,"Times New Roman",serif;color:#e58a00}
+.oiva-rating{display:flex;align-items:center;gap:var(--sp-2)}
+.oiva-smile{font-size:1.625rem;line-height:1;color:#25a950}
+.oiva-rating strong{font-size:1.125rem;font-weight:600}
+.oiva-date{margin:0 0 var(--sp-4);color:var(--muted);font-size:var(--fs-sm)}
+.oiva-link{display:inline-flex;align-items:center;gap:10px;min-height:44px;padding:10px 20px;border:1.5px solid var(--gold);border-radius:var(--r-pill);color:var(--charcoal);text-decoration:none;font-weight:500;font-size:.9375rem;transition:background-color var(--dur-fast)}
+@media (hover:hover){.oiva-link:hover{background:var(--gold)}}
+@media (min-width:768px){.oiva-logo{font-size:2.75rem}.oiva-rating strong{font-size:1.3125rem}.oiva-smile{font-size:1.875rem}}
