@@ -469,3 +469,11 @@ html.sheet-open{overflow:hidden}
 .hero h1{hyphens:manual;max-width:22ch;overflow-wrap:normal}
 
 .lunch-foot{justify-content:flex-start;margin-top:var(--sp-5)}
+
+/* Round 4: menu */
+h1,h2,h3{font-weight:600}
+.mi-name{font-weight:700}
+.menu-cat h2{font-weight:700}
+.menu-item .figure{max-width:160px;aspect-ratio:1/1}
+@media (min-width:768px){.menu-item.has-photo{grid-template-columns:160px 1fr}}
+.menu-cat h2{margin-bottom:var(--sp-6)}
