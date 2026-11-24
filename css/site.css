@@ -467,3 +467,5 @@ html.sheet-open{overflow:hidden}
 @media (max-width:639px){.dock-btn--mail{padding:0 18px;width:auto}.dock-btn--mail span{position:static;width:auto;height:auto;clip:auto}}
 @media (max-width:359px){.dock-btn--mail span{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}.dock-btn--mail{padding:0;width:48px}}
 .hero h1{hyphens:manual;max-width:22ch;overflow-wrap:normal}
+
+.lunch-foot{justify-content:flex-start;margin-top:var(--sp-5)}
