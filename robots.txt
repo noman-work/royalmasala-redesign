@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /tietosuoja/
+Sitemap: https://royalmasala.fi/sitemap.xml
