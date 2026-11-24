@@ -12,8 +12,8 @@
   --muted:#5E5C55; --line:rgba(36,35,31,.14); --line-light:rgba(247,244,237,.22);
   --scrim:rgba(36,35,31,.45);
 
-  --font-head:"Cormorant Garamond",Georgia,"Times New Roman",serif;
-  --font-body:"DM Sans",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --font-head:"Iowan Old Style","Palatino Linotype",Palatino,"Book Antiqua",Georgia,serif;
+  --font-body:"Avenir Next","Segoe UI Variable Text","Segoe UI",system-ui,-apple-system,Roboto,sans-serif;
   --fs-display:clamp(2.75rem,1.6rem + 5vw,5.5rem);
   --fs-h2:clamp(2rem,1.4rem + 2.5vw,3.5rem);
   --fs-h3:clamp(1.5rem,1.2rem + 1vw,2rem);
@@ -457,3 +457,15 @@ html.sheet-open{overflow:hidden}
 .page-head{padding-block:var(--sp-6) var(--sp-6)}
 .figure picture{width:100%;height:100%}
 .hero h1{margin-bottom:var(--sp-5)}
+
+/* Round 3 */
+.hero h1{font-size:clamp(2.25rem,1.3rem + 3.8vw,4.25rem);line-height:1.08;max-width:18ch;display:block}
+.hero h1 .pill{display:none}
+.tag--g{background:#FBF0D9;color:#7A4B00;border-color:#E2C48B}
+.tag--l{background:#E4EEF9;color:#1F4E86;border-color:#A9C6E8}
+.tag--v{background:#E3F3E6;color:#1E6B33;border-color:#9FD0AA}
+.tag--m{background:#EEEDEA;color:#4A4943;border-color:#C9C7C0}
+.dock-btn--mail span{position:static;width:auto;height:auto;overflow:visible;clip:auto}
+@media (max-width:639px){.dock-btn--mail{padding:0 18px;width:auto}.dock-btn--mail span{position:static;width:auto;height:auto;clip:auto}}
+@media (max-width:359px){.dock-btn--mail span{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}.dock-btn--mail{padding:0;width:48px}}
+.hero h1{hyphens:manual;max-width:22ch;overflow-wrap:normal}
